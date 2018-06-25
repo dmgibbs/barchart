@@ -1,0 +1,24 @@
+Stretch tutorials Notes
+
+concept that the jquery element will store the chart object
+w3schools code to create a square
+javascript and jquery tutorial for beginners on setting
+
+Approach used to solve Bar Chart s
+
+1) Learn what jquery is.
+https://api.jquery.com/
+
+2) learn how to use it alongside html
+3) Fool around with jQuery and Javascript variable passing.
+4) Write code in Jscript to draw a barchart.
+5) Learn how to pass jquery & jscript statements to the DOM
+https://www.youtube.com/watch?v=VRnQOcVclS8
+(Javascript & Jquery Tutorial for Beginners 1-9
+https://www.digitalocean.com/community/tutorials/introduction-to-the-dom
+Basic Drawing
+https://www.youtube.com/watch?v=N0BNbngr2IY
+
+
+
+

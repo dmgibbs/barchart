@@ -1,0 +1,35 @@
+<!-- Web Page to show some text and draw the canvas -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Barchart Tester</title>
+       <!-- <link rel='stylesheet' type='text/css' href='stylesheet.css'/> -->
+        <script type='text/javascript' src='jquery-1.12.4.js'></script>
+        <script type ="text/javascript" src = "mycode.js"> </script>
+
+    </head>
+    <body>
+      <h1> BarChart Drawing Routine </h1>
+        <div>
+          <p> This is just some additional text to follow the heading </p>
+            <script>
+              var name = "Johnny";
+              helloWorld(name);
+              var dim = {width: 300,height: 300};
+              var elementname = "canvasdiv";
+              var list = [8,15, 10, 25, 30, 35];
+
+            </script>
+        </div>
+      <div>
+        <canvas id= "canvasdiv"  width="500" height="500">
+          This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+      </div>
+      <div>
+        <script>
+          draw2(list,dim, elementname); // pass the list of numbers, the size of graph and container
+        </script>
+      </div>
+    </body>
+</html>
