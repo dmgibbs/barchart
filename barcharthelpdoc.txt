@@ -18,6 +18,8 @@ https://www.youtube.com/watch?v=VRnQOcVclS8
 https://www.digitalocean.com/community/tutorials/introduction-to-the-dom
 Basic Drawing
 https://www.youtube.com/watch?v=N0BNbngr2IY
+Drawing multiple thingss
+https://www.kirupa.com/canvas/drawing_multiple_things.htm
 
 
 
