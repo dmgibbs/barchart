@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Barchart Tester</title>
+       <!-- <link rel='stylesheet' type='text/css' href='stylesheet.css'/> -->
+        <script type='text/javascript' src='jquery-1.12.4.js'></script>
+        <script type ="text/javascript" src = "barchartv4.js"> </script>
+
+    </head>
+    <body>
+      <div>
+          <p> This is just some additional text to follow the heading </p>
+            <script>
+              var dim = {x: 400,y: 300};
+              var elementname = "canvasdiv";
+              var elem2 = "canvasdiv2";
+              var list = [35 ,40,34,26,55,50];
+              var list2 = [[34,55,66],[12,15,33], [34,44,66]];
+
+              var alabels = {title : "Just Another Graph Title" ,
+                             x    : ["North", "South ", "East","West" ,"S.East","S.West" ] ,
+                             y    : ["Sales ($)"]
+                           };
+               var colorlist = ["red","grey","purple","blue","green","brown","yellow"];
+            </script>
+       </div>
+       <div>
+       <canvas id= "canvasdiv"  width="400" height="400">
+          This text is displayed if your browser does not support HTML5 Canvas.
+       </canvas>
+       </div>
+       <div>
+       <canvas id= "canvasdiv2"  width="300" height="300">
+          This text is displayed if your browser does not support HTML5 Canvas.
+       </canvas>
+     </div>
+      <script>
+        jQuery(document).ready(function() {               // got an undefined error using $
+        var res = new BarChart(list,dim, elementname);    // create an instance of the chart object
+        res.getLabels(alabels);                            // assign some values to it from line 20
+        res.setColorWheel(colorlist);                     // setup a list of colours that can be used.
+        res.draw();
+       var res2 = new BarChart(list2,dim,elem2);
+       res2.getLabels({title: "Second Graph",x:["Team 1","Team2","Team3"],y:["Scores"]});
+       res2.setColorWheel(colorlist);                     // setup a list of colours that can be used.
+       res2.draw();
+        });
+      </script>
+
+    </body>
+</html>

@@ -79,15 +79,17 @@ elementname - name of the html element which will store the canvas object. Expec
 
 **A list of** *SOME* **the external resources (tutorials, docs, example code, etc)** 
 
-
-https://api.jquery.com/ - Learning what jquery is.
-https://forum.jquery.com/topic/jquery-passing-a-jquery-object-as-a-function-parameter
-https://www.youtube.com/watch?v=VRnQOcVclS8
-(Javascript & Jquery Tutorial for Beginners 1-9
-https://www.digitalocean.com/community/tutorials/introduction-to-the-dsom
+Learning what jquery is.
+-https://api.jquery.com/ 
+-https://www.codecademy.com/learn/learn-jquery
+-https://forum.jquery.com/topic/jquery-passing-a-jquery-object-as-a-function-parameter
+Javascript & Jquery Tutorial for Beginners 1-9
+-https://www.youtube.com/watch?v=VRnQOcVclS8
+Dom Intro
+-https://www.digitalocean.com/community/tutorials/introduction-to-the-dsom
 Basic Drawing
-https://www.youtube.com/watch?v=N0BNbngr2IY
+-https://www.youtube.com/watch?v=N0BNbngr2IY
 Drawing multiple thingss
-https://www.kirupa.com/canvas/drawing_multiple_things.htm
+-https://www.kirupa.com/canvas/drawing_multiple_things.htm
 More Info on drawing
-https://www.codecademy.com/en/forum_questions/52296881f10c603e14002347
+-https://www.codecademy.com/en/forum_questions/52296881f10c603e14002347
