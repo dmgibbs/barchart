@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Barchart Tester</title>
+       <!-- <link rel='stylesheet' type='text/css' href='stylesheet.css'/> -->
+        <script type='text/javascript' src='jquery-1.12.4.js'></script>
+        <script type ="text/javascript" src = "barchartv4.js"> </script>
+
+    </head>
+    <body>
+      <div>
+          <p> This is just some additional text to follow the heading </p>
+            <script>
+              var dim = {x: 400,y: 300};
+              var elementname = "canvasdiv";
+              var list = [35 ,40];
+
+              //[78,20,30,50],[20,30,40,33]];
+              var alabels = {title : "Just Another Graph Title" ,
+                             x    : ["North", "South ", "East","West" ,"S.East","S.West" ] ,
+                             y    : ["Sales ($)"]
+                           };
+               var colorlist = ["red","grey","purple","blue","green","brown","yellow"];
+            </script>
+       </div>
+       <canvas id= "canvasdiv"  width="400" height="400">
+          This text is displayed if your browser does not support HTML5 Canvas.
+       </canvas>
+      <script>
+        jQuery(document).ready(function() {               // got an undefined error using $
+        var res = new BarChart(list,dim, elementname);    // create an instance of the chart object
+        res.getLabels(alabels);                            // assign some values to it from line 20
+        res.setColorWheel(colorlist);                     // setup a list of colours that can be used.
+        res.draw();
+        });
+      </script>
+
+    </body>
+</html>
